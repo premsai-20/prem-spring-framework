@@ -16,6 +16,12 @@ public class GamingConfiguration {
 		return game;
 	}
 	
+	@Bean
+	public GameRunner gameRunner(GamingConsole game) {
+		var gameRunner = new GameRunner(game());
+		return gameRunner;
+	}
+	
 //	//var game = new MarioGame();
 //	//var game= new SuperContraGame();
 //	var game = new PacmanGame(); // #1 Object is created 
