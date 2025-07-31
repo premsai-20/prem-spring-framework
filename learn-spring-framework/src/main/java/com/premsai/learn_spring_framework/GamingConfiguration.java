@@ -21,14 +21,5 @@ public class GamingConfiguration {
 		var gameRunner = new GameRunner(game());
 		return gameRunner;
 	}
-	
-//	//var game = new MarioGame();
-//	//var game= new SuperContraGame();
-//	var game = new PacmanGame(); // #1 Object is created 
-//	
-//	var gameRunner = new GameRunner(game); 
-//	// #2 Object is created + wiring of dependencies
-//	// game is a dependent of GameRunner
-	
-	//gameRunner.run();
+
 }

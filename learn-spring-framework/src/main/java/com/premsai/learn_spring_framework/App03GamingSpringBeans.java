@@ -2,6 +2,7 @@ package com.premsai.learn_spring_framework;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.premsai.learn_spring_framework.game.GameRunner;
 import com.premsai.learn_spring_framework.game.GamingConsole;
 public class App03GamingSpringBeans {
 
@@ -13,7 +14,9 @@ public class App03GamingSpringBeans {
 		{
 		context.getBean(GamingConsole.class).up();
 		
+		context.getBean(GameRunner.class).run();
 		}
+		
 		
 	}
 
