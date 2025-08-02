@@ -1,4 +1,4 @@
-package com.premsai.learn_spring_framework.example.a0;
+package com.premsai.learn_spring_framework.example.c1;
 
 public interface DataService {
 	 int[] retrieveData();

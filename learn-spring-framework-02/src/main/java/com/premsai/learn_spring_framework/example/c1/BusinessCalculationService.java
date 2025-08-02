@@ -1,10 +1,10 @@
-package com.premsai.learn_spring_framework.example.a0;
+package com.premsai.learn_spring_framework.example.c1;
 
 import java.util.Arrays;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service 
 public class BusinessCalculationService {
 
 	private DataService dataService;
